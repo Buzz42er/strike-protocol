@@ -28,7 +28,7 @@ function App() {
 
         <Nav/>
       </header>
-      
+      <h1>Hello World</h1>
         < Hero className="Hero"/>
         <GameInfo className="GameInfo"/>
         <Rewards className="Rewards"/>
