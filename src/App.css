@@ -68,3 +68,7 @@ nav {
     transform: rotate(360deg);
   }
 }
+
+button{
+  background-color: #F82B4E;
+}
