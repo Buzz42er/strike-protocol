@@ -1,10 +1,42 @@
+.root *{
+  padding: 10px;
+  background-color: #ff272745;
+}
+
 .App {
   text-align: center;
 }
+section{
+  min-height: 100vmin;
+
+}
+/* Nav */
+
+nav {
+  display:flex;
+  flex-direction: row;
+
+}
+
+.Menu { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu a {
+  color:#F82B4E;
+  font-size: 24px;
+  font-family: Oxsanium;
+  padding: 10px;
+
+}
 
 .App-logo {
-  height: 40vmin;
+  height: 60px;
   pointer-events: none;
+  padding: 10px;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +46,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #120101; */
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 20px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff2727;
 }
 
 @keyframes App-logo-spin {
