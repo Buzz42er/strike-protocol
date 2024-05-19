@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className='Hero'>
       <div>
-        <img src={''}/>  
+        <img src={require('../../assets/herosection/no-bg1-3.png')}/>  
       </div>
       <div className='HeroButtonsDiv'>
         <button><img src={''}/>Watch Trailer</button> 

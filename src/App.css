@@ -3,6 +3,18 @@
   background-color: #ff272745;
 }
 
+/* section {
+  background-color: #ff2727;
+}
+
+ div {
+  background-color: #3527ff;
+}
+
+ article{
+  background-color: #64ff27;
+} */
+
 .App {
   text-align: center;
 }
@@ -17,6 +29,7 @@ nav {
   flex-direction: row;
 
 }
+
 
 .Menu { 
   display: flex;
@@ -37,6 +50,24 @@ nav {
   pointer-events: none;
   padding: 10px;
   
+}
+
+@media (max-width: 700px){
+  .HamburgerMenu{
+    display:block;
+  }
+  .Menu{
+    display:none
+  }
+}
+
+@media (min-width: 700px){
+  .HamburgerMenu{
+    display:none;
+  }
+  .Menu{
+    display:flex;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -71,4 +102,18 @@ nav {
 
 button{
   background-color: #F82B4E;
+}
+/* Hero section */
+.Hero{
+  background-image: url('./assets/herosection/heroBackground.png');
+}
+
+.HeroButtonsDiv{
+
+}
+
+.HeroButtonsDiv button{
+  margin: 10px;
+  width: 294px;
+  height: 81px; 
 }

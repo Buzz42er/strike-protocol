@@ -14,6 +14,9 @@ const Nav = () => {
         <a src={""}>Gallery</a>
         <a src={""}>Updates</a>
     </div>
+    <div>
+      <img src='' className='HamburgerMenu'/>
+    </div>
   </nav>
   )
 }

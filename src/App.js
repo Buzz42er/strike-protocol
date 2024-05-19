@@ -7,7 +7,10 @@ import Footer from './components/sections/Footer';
 import GameInfo from './components/sections/GameInfo';
 import Rewards from './components/sections/Rewards';
 import Partners from './components/sections/Partners';
-
+import TheProject from './components/sections/TheProject';
+import FAQ from './components/sections/FAQ';
+import HowToPlay from './components/sections/HowToPlay';
+import Token from './components/sections/Token';
 
 function App() {
   return (
@@ -30,9 +33,12 @@ function App() {
       </header>
       
         < Hero className="Hero"/>
-        <GameInfo className="GameInfo"/>
-        <Rewards className="Rewards"/>
+        <TheProject className="TheProject"/>
         <Playstyles className="Playstyles"/>
+        <Rewards className="Rewards"/>
+        <FAQ className='FAQ'/>
+        <HowToPlay className='HowToPlay'/>
+        <Token className='Token'/>
         <Gallery className="Gallery"/>
         <Partners className="Partners"/>
         
