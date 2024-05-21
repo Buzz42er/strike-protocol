@@ -1,6 +1,8 @@
+
+
 .root *{
   padding: 10px;
-  background-color: #ff272745;
+
 }
 
 /* section {
@@ -19,7 +21,8 @@
   text-align: center;
 }
 section{
-  min-height: 100vmin;
+  min-height: 100vh;
+  font-family: "Oxanium", sans-serif;
 
 }
 /* Nav */
@@ -27,7 +30,8 @@ section{
 nav {
   display:flex;
   flex-direction: row;
-
+  position: fixed;
+  top:0;
 }
 
 
@@ -40,7 +44,7 @@ nav {
 .Menu a {
   color:#F82B4E;
   font-size: 24px;
-  font-family: Oxsanium;
+  font-family: Oxanium;
   padding: 10px;
 
 }
@@ -53,6 +57,12 @@ nav {
 }
 
 @media (max-width: 700px){
+  
+  nav{
+    justify-content: space-between;
+    width: 94%;
+    padding: 0 3%;
+  }
   .HamburgerMenu{
     display:block;
   }
@@ -73,6 +83,7 @@ nav {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    height: 95px;
   }
 }
 
@@ -84,11 +95,11 @@ nav {
   /* align-items: center; */
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  padding: 0 20px;
 }
 
 .App-link {
   color: #ff2727;
+  
 }
 
 @keyframes App-logo-spin {
@@ -103,9 +114,23 @@ nav {
 button{
   background-color: #F82B4E;
 }
+
 /* Hero section */
 .Hero{
   background-image: url('./assets/herosection/heroBackground.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vmin;
+}
+
+.Hero div{
+  padding: 150px 0 40px 0;
+}
+
+.title {
+
+
 }
 
 .HeroButtonsDiv{
