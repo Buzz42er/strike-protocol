@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../centered-no-text.png';
 
+    /* on scroll darken the menu */
 
 const Nav = () => {
   return (

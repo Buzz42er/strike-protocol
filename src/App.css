@@ -44,7 +44,7 @@ nav {
 .Menu a {
   color:#F82B4E;
   font-size: 24px;
-  font-family: Oxanium;
+  font-family: "Oxanium", sans-serif;
   padding: 10px;
 
 }
@@ -55,16 +55,16 @@ nav {
   padding: 10px;
   
 }
-
 @media (max-width: 700px){
-  
+
   nav{
     justify-content: space-between;
     width: 94%;
     padding: 0 3%;
   }
   .HamburgerMenu{
-    display:block;
+    display:flex;
+    align-items: center;
   }
   .Menu{
     display:none
@@ -111,8 +111,21 @@ nav {
   }
 }
 
-button{
-  background-color: #F82B4E;
+button {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Oxanium", sans-serif;
+}
+
+button.btn1{
+  background-image: url('./assets/herosection/Button.png');
+}
+
+button.btn2{
+  background-image: url('./assets/herosection/Button2.png');
 }
 
 /* Hero section */
@@ -142,3 +155,97 @@ button{
   width: 294px;
   height: 81px; 
 }
+
+/* The Project */
+
+.TheProject{
+  background-image: url('./assets/theproject/TheProjectBG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+
+.TheProject h2{
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .TheProject h2{
+    display: block;
+    font-size: 180px;
+    font-weight: 900;
+    text-transform:uppercase;
+    padding-top: 60px;
+    margin: 0;
+    color: #4A020A;
+  }
+}
+
+.TheProject article h4{
+  color: #F82B4E;
+  font-size: 32px;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.TheProject p{
+  padding: 40px;
+  color: #ffffff;
+}
+
+.TheProjectImg{
+  width: 100%;
+}
+
+/* Playstyles */
+
+/* Rewards */
+
+.Rewards{
+  background-image: url('./assets/Rewards/RewardsBG.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+
+}
+
+.Rewards h2{
+  display: block;
+  font-size: 180px;
+  font-weight: 900;
+  text-transform:uppercase;
+  padding-top: 60px;
+  margin: 0;
+  color: #4A020A;
+  display: none;
+
+}
+
+.RewardSpec{
+  background-image: url('./assets/Rewards/RwrdSpecFrame.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  margin: 0 30px;
+  padding: 20px 0;
+
+  
+}
+
+.RewardSpec h5{
+  margin: 0;
+}
+
+.RewardSpec p{
+  font-size: 16px;
+  padding: 40px;
+}
+
+.RewardCardImg {
+  width: 100%;
+}
+

@@ -7,8 +7,8 @@ const Hero = () => {
         <img src={require('../../assets/herosection/no-bg1-3.png')} className='title'/>  
       </div>
       <div className='HeroButtonsDiv'>
-        <button>{/*<img src={('')}/>*/}Watch Trailer</button> 
-        <button>Get Alpha</button>
+        <button className='btn1'>{/*<img src={('')}/>*/}Watch Trailer</button> 
+        <button className='btn2'>Get Alpha</button>
       </div>  
     </section>
   )
