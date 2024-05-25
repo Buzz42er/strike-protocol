@@ -19,7 +19,7 @@ const Rewards = () => {
                <h5>Spec</h5>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
-              <h5 className='RewardCardName'>{''}</h5>
+              <h5 className='RewardCardName'>Glock 19</h5>
             </div>
           </div>
           <div className='RewardsArrows RA2'>

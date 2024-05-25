@@ -4,7 +4,7 @@ const Token = () => {
   return (
     <div>
           <section>
-        <h2>About the token</h2>
+        <h2 className='h2Different'>Token</h2>
         <article>
           <img src={''}/>
         </article>

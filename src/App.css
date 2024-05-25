@@ -166,13 +166,20 @@ button.btn2{
   padding-bottom: 40px;
 }
 
-
-.TheProject h2{
+/* All h2  */
+ h2{
   display: none;
 }
 
 @media (min-width: 700px) {
-  .TheProject h2{
+  .TheProject div{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+  h2{
     display: block;
     font-size: 180px;
     font-weight: 900;
@@ -180,6 +187,11 @@ button.btn2{
     padding-top: 60px;
     margin: 0;
     color: #4A020A;
+  }
+
+  .TheProjectText{
+    width: 50%;
+    font-size: 32px;
   }
 }
 
@@ -199,7 +211,30 @@ button.btn2{
   width: 100%;
 }
 
+
+
 /* Playstyles */
+
+.playStyles{
+  background-image: url('./assets/Playstyles/PlaystylesBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vmin;
+
+}
+
+.mainPlayStyles article{
+  background-image: url('./assets/Rewards/RwrdSpecFrame.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  margin: 0 30px;
+  padding: 20px 0;
+  width: 20%;
+  color: #ffffff;
+}
 
 /* Rewards */
 
@@ -212,17 +247,7 @@ button.btn2{
 
 }
 
-.Rewards h2{
-  display: block;
-  font-size: 180px;
-  font-weight: 900;
-  text-transform:uppercase;
-  padding-top: 60px;
-  margin: 0;
-  color: #4A020A;
-  display: none;
 
-}
 
 .RewardSpec{
   background-image: url('./assets/Rewards/RwrdSpecFrame.png');
@@ -232,8 +257,6 @@ button.btn2{
   background-size: 100% 100%;
   margin: 0 30px;
   padding: 20px 0;
-
-  
 }
 
 .RewardSpec h5{
@@ -249,3 +272,40 @@ button.btn2{
   width: 100%;
 }
 
+.RewardCardName{
+  color: #F82B4E;
+  font-size: 24px;
+  
+}
+
+@media (min-width:700px) {
+  .RewardCardImg {
+    width: 30%;
+  }
+
+  .RewardSpec{
+    width: 30%;
+    position: relative;
+    left: 60%;
+    bottom: 298px;
+  }
+}
+
+
+
+/* FAQ */
+
+.h2Different{
+  color: #341642;
+
+}
+
+/* How to play */
+
+/* TOKEN */
+
+/* Gallery */
+
+/* Partners */
+
+/* Footer */
