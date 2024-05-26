@@ -2,7 +2,7 @@ import React from 'react'
 
 const FAQ = () => {
   return (
-    <section>
+    <section className='FAQ'>
         <h2>FAQ</h2>
         {/* map to render questionas and answers */}
         {/* on question click render answer */}

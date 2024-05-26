@@ -7,13 +7,18 @@ const Playstyles = () => {
       <div>
         <div className='arrowLeftPlayStyles'></div>
         <div className='mainPlayStyles'>
-          <article>
+          <article className='PSskills'>
             <h5>Outfits and Weapons</h5>
             <p>
             Equip your Infiltrators with cutting-edge gear in Strike Protocol. Discover different outfits and weapons, each offering different bonuses and stats. Customize your equipment to match your strategic approach and dominate the base raids.
             </p>
           </article>
-          <article>
+          <div className='playerImgFrame'>
+            <div className='playerImgBG'>
+              <img src={require('../../assets/Playstyles/PlayerInfiltrator.png')} className='playerImg'/>
+            </div>
+          </div>
+          <article className='PSskills'>
             <h5>Skills</h5>
             <p>
             As an Infiltrator, you embark on missions for epic rewards. Choose a base within your level range and navigate through cunning challenges. Dodge traps, defeat enemies and breach the enemy Commander's database. Successful raids reward you with gear, resources, and currencies.            </p>

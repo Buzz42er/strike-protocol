@@ -23,8 +23,25 @@
 section{
   min-height: 100vh;
   font-family: "Oxanium", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  color: #ffffff;
 
 }
+
+h3, h4{
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+p{
+  margin: 0;
+}
+
 /* Nav */
 
 nav {
@@ -131,10 +148,7 @@ button.btn2{
 /* Hero section */
 .Hero{
   background-image: url('./assets/herosection/heroBackground.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vmin;
+
 }
 
 .Hero div{
@@ -160,9 +174,7 @@ button.btn2{
 
 .TheProject{
   background-image: url('./assets/theproject/TheProjectBG.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   padding-bottom: 40px;
 }
 
@@ -187,11 +199,11 @@ button.btn2{
     padding-top: 60px;
     margin: 0;
     color: #4A020A;
-  }
+  } 
 
   .TheProjectText{
-    width: 50%;
-    font-size: 32px;
+    width: 55%;
+    font-size: 24px;
   }
 }
 
@@ -217,10 +229,7 @@ button.btn2{
 
 .playStyles{
   background-image: url('./assets/Playstyles/PlaystylesBG.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vmin;
+  padding: 42px 0;
 
 }
 
@@ -228,21 +237,70 @@ button.btn2{
   background-image: url('./assets/Rewards/RwrdSpecFrame.png');
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   background-size: 100% 100%;
-  margin: 0 30px;
-  padding: 20px 0;
-  width: 20%;
   color: #ffffff;
+  padding: 20px;
+  margin: 0 30px;
+}
+
+@media (min-width:700px) {
+  .mainPlayStyles article{
+
+    /* background-size: contain; */
+
+    position: relative;
+    padding: 20px 0;
+    width: 20%;
+
+  }
+
+  .PSoandw{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+  }
+
+  .PSskills{
+
+  }
+}
+
+.playStyles div h4{
+  color: #F82B4E;
+  text-align: center;
+  font-family:  "Oxanium", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.playerImgFrame{
+
+}
+
+.playerImgBG{
+  background-image: url('./assets/Playstyles/LogoBehindPlayer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.playerImg{
+  width: 60%;
+}
+
+@media (min-width:700px) {
+  .playerImg{
+    width: 30%;
+  }
 }
 
 /* Rewards */
 
 .Rewards{
   background-image: url('./assets/Rewards/RewardsBG.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #ffffff;
 
 }
@@ -275,6 +333,7 @@ button.btn2{
 .RewardCardName{
   color: #F82B4E;
   font-size: 24px;
+  margin-bottom: 0;
   
 }
 
@@ -295,17 +354,86 @@ button.btn2{
 
 /* FAQ */
 
+.FAQ{
+  background-image: url('./assets/FAQ/FAQbg.png');
+  padding: 46px;
+}
+
 .h2Different{
   color: #341642;
 
 }
 
+.FAQQuestion, .FAQAnswer {
+  background-image: url('./assets/herosection/Button.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 40px;
+  display: flex;
+  align-items: left;
+  margin: 10px;
+
+}
+
 /* How to play */
+
+.HowToPlay{
+  background-image: url('./assets/HowToPlay/HowToPlayBG.png');
+}
+
+.HTPtext{
+  padding: 40px;
+}
 
 /* TOKEN */
 
+.Token{
+  background-image: url('./assets/Token/TokenBG.png');
+}
+
+@media (min-width:700px) {
+  .Token div{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .Token article{
+    width: 50%;
+  }
+}
+
+.Token article{
+  padding: 40px 0;
+  
+}
+
+.Token article h4{
+  color: #9B00E5;
+  font-size: 36px;
+  font-weight: 500;
+
+}
+
+.Token article p{
+  padding: 0 40px;
+  text-align: start;
+}
+
+.TokenImg {
+  width: 60%;
+}
+
 /* Gallery */
 
+.Gallery{
+  background-image: url('./assets/Gallery/GalleryBG.png');
+}
+
 /* Partners */
+
+.Partners{
+  background-image: url('./assets/Partners/PartnersBG.png');
+}
 
 /* Footer */
